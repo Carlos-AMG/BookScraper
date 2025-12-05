@@ -1,0 +1,181 @@
+[
+  {
+    "bundle_metadata": {
+      "title": "Book Bundle",
+      "description": "",
+      "publisher": "O'Reilly",
+      "total_books": 21,
+      "url": "https://www.humblebundle.com/books/data-engineering-science-oreilly-books"
+    },
+    "books": [
+      {
+        "title": "Software Engineering for Data Scientists",
+        "author": "",
+        "publisher": "O'Reilly",
+        "description": "Data science happens in code. The ability to write reproducible, robust, scaleable code is key to a data science project's success—and is absolutely essential for those working with production code. This practical book bridges the gap between data science and software engineering,and clearly explains how to apply the best practices from software engineering to data science. Examples are provided in Python, drawn from popular packages such as NumPy and pandas. If you want to write better data science code, this guide covers the essential topics that are often missing from introductory data science or coding classes, including how to:",
+        "format": "PDF",
+        "edition": ""
+      },
+      {
+        "title": "Financial Data Engineering",
+        "author": "",
+        "publisher": "O'Reilly",
+        "description": "Today, investment in financial technology and digital transformation is reshaping the financial landscape and generating many opportunities. Too often, however, engineers and professionals in financial institutions lack a practical and comprehensive understanding of the concepts, problems, techniques, and technologies necessary to build a modern, reliable, and scalable financial data infrastructure. This is where financial data engineering is needed. A data engineer developing a data infrastructure for a financial product possesses not only technical data engineering skills but also a solid understanding of financial domain-specific challenges, methodologies, data ecosystems, providers, formats, technological constraints, identifiers, entities, standards, regulatory requirements, and governance. This book offers a comprehensive, practical, domain-driven approach to financial data engineering, featuring real-world use cases, industry practices, and hands-on projects. Tamer Khraisha, PhD, is a senior data engineer and scientific author with more than a decade of experience in the financial sector.",
+        "format": "PDF",
+        "edition": ""
+      },
+      {
+        "title": "Streaming Databases",
+        "author": "Hubert Dulay and Ralph Matthias Debusmann",
+        "publisher": "O'Reilly",
+        "description": "Real-time applications are becoming the norm today. But building a model that works properly requires real-time data from the source, in-flight stream processing, and low latency serving of its analytics. With this practical book, data engineers, data architects, and data analysts will learn how to use streaming databases to build real-time solutions. Authors Hubert Dulay and Ralph M. Debusmann take you through streaming database fundamentals, including how these databases reduce infrastructure for real-time solutions. You'll learn the difference between streaming databases, stream processing, and real-time online analytical processing (OLAP) databases. And you'll discover when to use push queries versus pull queries, and how to serve synchronous and asynchronous data emanating from streaming databases.",
+        "format": "PDF",
+        "edition": ""
+      },
+      {
+        "title": "Implementing Data Mesh",
+        "author": "",
+        "publisher": "O'Reilly",
+        "description": "As data continues to grow and become more complex, organizations seek innovative solutions to manage their data effectively. Data mesh is one solution that provides a new approach to managing data in complex organizations. This practical guide offers step-by-step guidance on how to implement data mesh in your organization. In this book, Jean-Georges Perrin and Eric Broda focus on the key components of data mesh and provide practical advice supported by code. Data engineers, architects, and analysts will explore a simple and intuitive process for identifying key data mesh components and data products. You'll learn a consistent set of interfaces and access methods that make data products easy to consume. This approach ensures that your data products are easily accessible and the data mesh ecosystem is easy to navigate. This book helps you: Jean-Georges \"JG\" Perrin is a technology leader focusing on building innovative and modern data platforms. Eric Broda is a technology executive, practitioner, and founder of a boutique consulting firm that helps global enterprises realize value from data.",
+        "format": "PDF",
+        "edition": ""
+      },
+      {
+        "title": "Hands-On Differential Privacy",
+        "author": "Ethan Cowan, Michael Shoemate, et al.",
+        "publisher": "O'Reilly",
+        "description": "Many organizations today analyze and share large, sensitive datasets about individuals. Whether these datasets cover healthcare details, financial records, or exam scores, it's become more difficult for organizations to protect an individual's information through deidentification, anonymization, and other traditional statistical disclosure limitation techniques. This practical book explains how differential privacy (DP) can help. Authors Ethan Cowan, Michael Shoemate, and Mayana Pereira explain how these techniques enable data scientists, researchers, and programmers to run statistical analyses that hide the contribution of any single individual. You'll dive into basic DP concepts and understand how to use open source tools to create differentially private statistics, explore how to assess the utility/privacy trade-offs, and learn how to integrate differential privacy into workflows.",
+        "format": "PDF",
+        "edition": ""
+      },
+      {
+        "title": "Data Science: The Hard Parts",
+        "author": "Daniel Vaughan",
+        "publisher": "O'Reilly",
+        "description": "This practical guide provides a collection of techniques and best practices that are generally overlooked in most data engineering and data science pedagogy. A common misconception is that great data scientists are experts in the \"big themes\" of the discipline—machine learning and programming. But most of the time, these tools can only take us so far. In practice, the smaller tools and skills really separate a great data scientist from a not-so-great one. Taken as a whole, the lessons in this book make the difference between an average data scientist candidate and a qualified data scientist working in the field. Author Daniel Vaughan has collected, extended, and used these skills to create value and train data scientists from different companies and industries. Daniel Vaughan is head of data at Clip, the leading paytech company in Mexico. He's the author of Analytical Skills for AI and Data Science (O'Reilly).",
+        "format": "PDF",
+        "edition": ""
+      },
+      {
+        "title": "Practical Lakehouse Architecture",
+        "author": "",
+        "publisher": "O'Reilly",
+        "description": "This concise yet comprehensive guide explains how to adopt a data lakehouse architecture to implement modern data platforms. It reviews the design considerations, challenges, and best practices for implementing a lakehouse and provides key insights into the ways that using a lakehouse can impact your data platform, from managing structured and unstructured data and supporting BI and AI/ML use cases to enabling more rigorous data governance and security measures.",
+        "format": "PDF",
+        "edition": ""
+      },
+      {
+        "title": "Fuzzy Data Matching with SQL",
+        "author": "Jim Lehmer",
+        "publisher": "O'Reilly",
+        "description": "If you were handed two different but related sets of data, what tools would you use to find the matches? What if all you had was SQL SELECT access to a database? In this practical book, author Jim Lehmer provides best practices, techniques, and tricks to help you import, clean, match, score, and think about heterogeneous data using SQL. DBAs, programmers, business analysts, and data scientists will learn how to identify and remove duplicates, parse strings, extract data from XML and JSON, generate SQL using SQL, regularize data and prepare datasets, and apply data quality and ETL approaches for finding the similarities and differences between various expressions of the same data. Full of real-world techniques, the examples in the book contain working code. You'll learn how to:",
+        "format": "PDF",
+        "edition": ""
+      },
+      {
+        "title": "Learning Snowflake SQL and Scripting",
+        "author": "Alan Beaulieu",
+        "publisher": "O'Reilly",
+        "description": "To help you on the path to becoming a Snowflake pro, this concise yet comprehensive guide reviews fundamentals and best practices for Snowflake's SQL and Scripting languages. Developers and data professionals will learn how to generate, modify, and query data in the Snowflake relational database management system as well as how to apply analytic functions for reporting. Author Alan Beaulieu also shows you how to create scripts, stored functions, and stored procedures to return data sets using Snowflake Scripting. This book is ideal whether you're new to databases and need to run queries or reports against a Snowflake database, or transitioning from databases such as Oracle, SQL Server, or MySQL to cloud-based platforms.",
+        "format": "PDF",
+        "edition": ""
+      },
+      {
+        "title": "Learning Data Science",
+        "author": "",
+        "publisher": "O'Reilly",
+        "description": "As an aspiring data scientist, you appreciate why organizations rely on data for important decisions—whether it's for companies designing websites, cities deciding how to improve services, or scientists discovering how to stop the spread of disease. And you want the skills required to distill a messy pile of data into actionable insights. We call this the data science lifecycle: the process of collecting, wrangling, analyzing, and drawing conclusions from data. Learning Data Science is the first book to cover foundational skills in both programming and statistics that encompass this entire lifecycle. It's aimed at those who wish to become data scientists or who already work with data scientists, and at data analysts who wish to cross the \"technical/nontechnical\" divide. If you have a basic knowledge of Python programming, you'll learn how to work with data using industry-standard tools like pandas.",
+        "format": "PDF",
+        "edition": ""
+      },
+      {
+        "title": "Scaling Python with Dask",
+        "author": "",
+        "publisher": "O'Reilly",
+        "description": "Modern systems contain multi-core CPUs and GPUs that have the potential for parallel computing. But many scientific Python tools were not designed to leverage this parallelism. With this short but thorough resource, data scientists and Python programmers will learn how the Dask open source library for parallel computing provides APIs that make it easy to parallelize PyData libraries including NumPy, pandas, and scikit-learn. Authors Holden Karau and Mika Kimmins show you how to use Dask computations in local systems and then scale to the cloud for heavier workloads. This practical book explains why Dask is popular among industry experts and academics and is used by organizations that include Walmart, Capital One, Harvard Medical School, and NASA.",
+        "format": "PDF",
+        "edition": ""
+      },
+      {
+        "title": "Scaling Machine Learning with Spark",
+        "author": "",
+        "publisher": "O'Reilly",
+        "description": "Learn how to build end-to-end scalable machine learning solutions with Apache Spark. With this practical guide, author Adi Polak introduces data and ML practitioners to creative solutions that supersede today's traditional methods. You'll learn a more holistic approach that takes you beyond specific requirements and organizational goals--allowing data and ML practitioners to collaborate and understand each other better. Scaling Machine Learning with Spark examines several technologies for building end-to-end distributed ML workflows based on the Apache Spark ecosystem with Spark MLlib, MLflow, TensorFlow, and PyTorch. If you're a data scientist who works with machine learning, this book shows you when and why to use each technology.",
+        "format": "PDF",
+        "edition": ""
+      },
+      {
+        "title": "The Enterprise Data Catalog",
+        "author": "",
+        "publisher": "O'Reilly",
+        "description": "Combing the web is simple, but how do you search for data at work? It's difficult and time-consuming, and can sometimes seem impossible. This book introduces a practical solution: the data catalog. Data analysts, data scientists, and data engineers will learn how to create true data discovery in their organizations, making the catalog a key enabler for data-driven innovation and data governance. Author Ole Olesen-Bagneux explains the benefits of implementing a data catalog. You'll learn how to organize data for your catalog, search for what you need, and manage data within the catalog. Written from a data management perspective and from a library and information science perspective, this book helps you:",
+        "format": "PDF",
+        "edition": ""
+      },
+      {
+        "title": "Scaling Python with Ray",
+        "author": "Holden Karau, Boris Lublinsky",
+        "publisher": "O'Reilly",
+        "description": "Serverless computing enables developers to concentrate solely on their applications rather than worry about where they've been deployed. With the Ray general-purpose serverless implementation in Python, programmers and data scientists can hide servers, implement stateful applications, support direct communication between tasks, and access hardware accelerators. In this book, experienced software architecture practitioners Holden Karau and Boris Lublinsky show you how to scale existing Python applications and pipelines, allowing you to stay in the Python ecosystem while reducing single points of failure and manual scheduling. Scaling Python with Ray is ideal for software architects and developers eager to explore successful case studies and learn more about decision and measurement effectiveness. If your data processing or server application has grown beyond what a single computer can handle, this book is for you. You'll explore distributed processing (the pure Python implementation of serverless) and learn how to:",
+        "format": "PDF",
+        "edition": ""
+      },
+      {
+        "title": "Essential Math for Data Science",
+        "author": "",
+        "publisher": "O'Reilly",
+        "description": "Master the math needed to excel in data science, machine learning, and statistics. In this book author Thomas Nield guides you through areas like calculus, probability, linear algebra, and statistics and how they apply to techniques like linear regression, logistic regression, and neural networks. Along the way you'll also gain practical insights into the state of data science and how to use those insights to maximize your career.",
+        "format": "PDF",
+        "edition": ""
+      },
+      {
+        "title": "Data Science at the Command Line",
+        "author": "",
+        "publisher": "O'Reilly",
+        "description": "This thoroughly revised guide demonstrates how the flexibility of the command line can help you become a more efficient and productive data scientist. You'll learn how to combine small yet powerful command-line tools to quickly obtain, scrub, explore, and model your data. To get you started, author Jeroen Janssens provides a Docker image packed with over 100 Unix power tools--useful whether you work with Windows, macOS, or Linux. You'll quickly discover why the command line is an agile, scalable, and extensible technology. Even if you're comfortable processing data with Python or R, you'll learn how to greatly improve your data science workflow by leveraging the command line's power. This book is ideal for data scientists, analysts, engineers, system administrators, and researchers.",
+        "format": "PDF",
+        "edition": ""
+      },
+      {
+        "title": "Data Science on AWS",
+        "author": "",
+        "publisher": "O'Reilly",
+        "description": "With this practical book, AI and machine learning practitioners will learn how to successfully build and deploy data science projects on Amazon Web Services. The Amazon AI and machine learning stack unifies data science, data engineering, and application development to help level up your skills. This guide shows you how to build and run pipelines in the cloud, then integrate the results into applications in minutes instead of days. Throughout the book, authors Chris Fregly and Antje Barth demonstrate how to reduce cost and improve performance.",
+        "format": "PDF",
+        "edition": ""
+      },
+      {
+        "title": "Practical Statistics for Data Scientists",
+        "author": "",
+        "publisher": "O'Reilly",
+        "description": "Statistical methods are a key part of data science, yet few data scientists have formal statistical training. Courses and books on basic statistics rarely cover the topic from a data science perspective. The second edition of this popular guide adds comprehensive examples in Python, provides practical guidance on applying statistical methods to data science, tells you how to avoid their misuse, and gives you advice on what‚Äôs important and what‚Äôs not. Many data science resources incorporate statistical methods but lack a deeper statistical perspective. If you‚Äôre familiar with the R or Python programming languages and have some exposure to statistics, this quick reference bridges the gap in an accessible, readable format.",
+        "format": "PDF",
+        "edition": ""
+      },
+      {
+        "title": "Learning SQL",
+        "author": "",
+        "publisher": "O'Reilly",
+        "description": "As data floods into your company, you need to put it to work right away‚Äîand SQL is the best tool for the job. With the latest edition of this introductory guide, author Alan Beaulieu helps developers get up to speed with SQL fundamentals for writing database applications, performing administrative tasks, and generating reports. You‚Äôll find new chapters on SQL and big data, analytic functions, and working with very large databases. Each chapter presents a self-contained lesson on a key SQL concept or technique using numerous illustrations and annotated examples. Exercises let you practice the skills you learn. Knowledge of SQL is a must for interacting with data. With Learning SQL, you‚Äôll quickly discover how to put the power and flexibility of this language to work.",
+        "format": "PDF",
+        "edition": ""
+      },
+      {
+        "title": "Data Science from Scratch",
+        "author": "",
+        "publisher": "O'Reilly",
+        "description": "To really learn data science, you should not only master the tools‚Äîdata science libraries, frameworks, modules, and toolkits‚Äîbut also understand the ideas and principles underlying them. Updated for Python 3.6, this second edition of Data Science from Scratch shows you how these tools and algorithms work by implementing them from scratch. If you have an aptitude for mathematics and some programming skills, author Joel Grus will help you get comfortable with the math and statistics at the core of data science, and with the hacking skills you need to get started as a data scientist. Packed with new material on deep learning, statistics, and natural language processing, this updated book shows you how to find the gems in today‚Äôs messy glut of data.",
+        "format": "PDF",
+        "edition": ""
+      },
+      {
+        "title": "The ins and outs of data science",
+        "author": "",
+        "publisher": "",
+        "description": "With the world becoming more and more digitized, knowing how to use data is the way of the future. This bundle of valuable resources from O’Reilly is a Rosetta stone for aspiring data scientists everywhere, chock-full of information and tools to help you learn the skills you need to become a data engineer. This 20-book library will teach you how to integrate data science into software coding, use data science to design data-driven financial products, use streaming databases to process continuous inputs of data in real time, and more! Whether you’re new to the world of data science or an old hand at building data software of all kinds, this bundle will deepen your knowledge no matter your skill set. You choose what you pay, and all purchases support the federal aid organization Code for America! Pay less to get fewer items, or pay extra to give more to publishers, Humble, and charity. The ins and outs of data science. With the world becoming more and more digitized, knowing how to use data is the way of the future. This bundle of valuable resources from O’Reilly is a Rosetta stone for aspiring data scientists everywhere, chock-full of information and tools to help you learn the skills you need to become a data engineer. This 20-book library will teach you how to integrate data science into software coding, use data science to design data-driven financial products, use streaming databases to process continuous inputs of data in real time, and more! Whether you’re new to the world of data science or an old hand at building data software of all kinds, this bundle will deepen your knowledge no matter your skill set. You choose what you pay, and all purchases support the federal aid organization Code for America! Pay US$1 or more. Normally, the total cost for the ebooks in this bundle is as much as US$1,250. Here at Humble Bundle, you choose the price and increase your contribution to upgrade your bundle! This bundle has a minimum US$1 purchase. Read them anywhere. The ebooks in this bundle are available in PDF, MOBI, ePub, and PRC formats, so they work on your computer, e-readers, iPads, cell phones, and a wide array of mobile devices! Instructions and a list of recommended reading programs can be found here. Support charity. Choose where the money goes - between the publisher and to support Code for America. If you like what we do, you can leave us a Humble Tip too! Amounts based on USD equivalent price at time of purchase",
+        "format": "PDF",
+        "edition": ""
+      }
+    ]
+  }
+]
