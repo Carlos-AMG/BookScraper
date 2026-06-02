@@ -5,6 +5,29 @@ from pathlib import Path
 import os
 import re
 from typing import Optional
+import json
+
+import asyncio
+from functools import wraps
+
+def async_retry(max_attempts=3, delay=1, exceptions=(Exception,)):
+    """
+    Retry decorator for async functions.
+    """
+    def decorator(func):
+        @wraps(func)
+        async def wrapper(*args, **kwargs):
+            attempts = 0
+            while True:
+                try:
+                    return await func(*args, **kwargs)
+                except exceptions as e:
+                    attempts += 1
+                    if attempts >= max_attempts:
+                        raise
+                    await asyncio.sleep(delay)
+        return wrapper
+    return decorator
 
 
 def normalize(s: str) -> str:
@@ -44,27 +67,33 @@ async def main():
     API_KEY = os.getenv("API_KEY")
     annas_api = Annas_API(base_url, API_KEY)
 
-    book_data = {
-        "title": "Financial Data Engineering",
-        "author": "",
-        "publisher": "O'Reilly",
-        "description": "Today, investment in financial technology and digital transformation is reshaping the financial landscape and generating many opportunities. Too often, however, engineers and professionals in financial institutions lack a practical and comprehensive understanding of the concepts, problems, techniques, and technologies necessary to build a modern, reliable, and scalable financial data infrastructure. This is where financial data engineering is needed. A data engineer developing a data infrastructure for a financial product possesses not only technical data engineering skills but also a solid understanding of financial domain-specific challenges, methodologies, data ecosystems, providers, formats, technological constraints, identifiers, entities, standards, regulatory requirements, and governance. This book offers a comprehensive, practical, domain-driven approach to financial data engineering, featuring real-world use cases, industry practices, and hands-on projects. Tamer Khraisha, PhD, is a senior data engineer and scientific author with more than a decade of experience in the financial sector.",
-        "format": "PDF",
-        "edition": ""
-      }
+    with open("bundles_data.json", "r") as f:
+        bundles = json.load(f)
 
-    title = book_data["title"]
-    author = book_data["author"]
+    for bundle in bundles:
+        for book in bundle["books"]:
+            title = book["title"]
+            author = book["author"]
 
-    query = Book_Query_Parameters(
-        q=title,
-        author=author,
-        ext=book_data.get("format", "pdf").lower()
-    )
+            query = Book_Query_Parameters(
+                q=title,
+                # author=author,
+                # ext=book.get("format", "pdf").lower()
+                ext="pdf",
+                # sort="mostRelevant",
+                # source="libgenLi, libgenRs"
+            )
+            print(f"SEARCHING BOOK -> {query.q}")
+            retry_ = async_retry()
+            # books = await retry_(annas_api.search_book(query))
+            books = await retry_(annas_api.search_book)(query)
+
+            print(f"BOOKs FOUND FOR -> {query.q}")
+            await asyncio.sleep(1)
 
 
-    books = await annas_api.search_book(query)
-    print(await annas_api.download_book(books[0].md5))
+    # books = await annas_api.search_book(query)
+    # print(await annas_api.download_book(books[0].md5))
 
     await annas_api.disconnect_session()
 

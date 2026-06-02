@@ -21,7 +21,11 @@ async def scrape_specific_bundles():
     """Scrape specific bundles concurrently."""
     # Define the bundles you want to scrape
     bundle_urls = [
-        "https://www.humblebundle.com/books/software-architecture-pearson-books",
+        # "https://www.humblebundle.com/books/software-architecture-pearson-books",
+        # "https://www.humblebundle.com/books/hacking-no-starch-books?"
+        # "https://www.humblebundle.com/books/coding-challenges-and-interview-prep-mammoth-books"
+        # "https://www.humblebundle.com/books/networking-and-security-cert-prep-pearson-it-certification-exam-cram-books-encore"
+        "https://www.humblebundle.com/books/javascript-and-typescript-mastery-packt-books"
         # Add more URLs as needed
     ]
 

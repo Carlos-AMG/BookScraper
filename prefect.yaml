@@ -1,0 +1,18 @@
+name: annas-download-project
+prefect-version: "3.0.0"
+
+deployments:
+  - name: download-single-book
+    entrypoint: app/downloader_main_prefect.py:download_single_book_flow
+    work_pool:
+      name: annas-pool
+
+  - name: download-bundle
+    entrypoint: app/downloader_main_prefect.py:download_bundle_flow
+    work_pool:
+      name: annas-pool
+
+  - name: download-all-bundles
+    entrypoint: app/downloader_main_prefect.py:download_all_bundles_flow
+    work_pool:
+      name: annas-pool
